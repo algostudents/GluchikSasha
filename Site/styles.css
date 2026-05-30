@@ -1,0 +1,96 @@
+body {
+    width: auto;
+    height: auto;
+    background-color: blanchedalmond;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 5px double rgb(202, 130, 47);
+}
+
+.header-a a {
+    margin-right: 50px;
+    text-decoration: none;
+    color:black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+.card {
+    border: 10px ridge #ffb164;
+    width: 700px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.card p, .card h2, .card h4{
+    margin: 5px;
+}
+
+.card-img {
+    border: 5px solid #efc7ef;
+    border-radius: 50%;
+    transition: all 1s ease;
+}
+
+.card-img:hover {
+    transform: scale(1.5);
+}
+
+.fix-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#katze1 {
+    height: 200px;
+}
+
+#katze2 {
+    height: 200px;
+}
+
+#katze3 {
+    height: 250px;
+}
+
+#hund {
+    height: 200px;
+}
+
+#xomak {
+    height: 200px;
+}
+
+.card-priut-img {
+    border-radius: 15px;
+    border: 5px solid #bcf5aa;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 5px double rgb(202, 130, 47);
+}
+
+.info {
+    display: flex;
+}
+
+.footer-col {
+    margin-right: auto;
+    margin-left: auto;
+}
